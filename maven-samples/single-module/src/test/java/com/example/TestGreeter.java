@@ -47,4 +47,11 @@ public class TestGreeter {
     System.out.println("Modified by me @Vikram");
     assertThat(greeter.greet(someone), containsString(someone));
   }
+  
+  @Test
+  public void greetShouldIncludeTheOneBeingGreetedNew1() {
+    String someone = "SFSDFSDF";
+    System.out.println("Modified by me @Vikram");
+    assertThat(greeter.greet(someone), containsString(someone));
+  }
 }
